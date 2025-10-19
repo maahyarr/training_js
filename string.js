@@ -38,3 +38,7 @@ textdexx = "mahydr.amini1996@gmail.com";
 result = textdex.indexOf("to");
 result =textdexx.slice(0, textdexx.lastIndexOf("@"));
 console.log(result);
+	
+ text = "Hello world!";
+ result = text.repeat(2);
+console.log(result);
