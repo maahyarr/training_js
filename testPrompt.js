@@ -1,5 +1,4 @@
 let sabt = confirm("sabt nam?");
-
 if (sabt == true) {
   let firstName = prompt("name");
   if (firstName == false) {
@@ -12,7 +11,6 @@ if (sabt == true) {
     let lastName = prompt("lastname");
   }
   let age = Number(prompt("age"));
-
   if (age == false) {
     alert("age ra vard konid");
     let age = Number(prompt("age"));
@@ -22,19 +20,16 @@ if (sabt == true) {
   }
   let pass = prompt("set a passcode");
   passend = "pass is:".padEnd(15, "?");
-  if (pass.length<6) {
-    alert("atleast 6")
+  if (pass.length < 6) {
+    alert("atleast 6");
     let pass = prompt("set a passcode");
-    
   }
   if (pass == false) {
     alert("pass ra vard konid");
     let pass = Number(prompt("set a passcode"));
   }
-  
-  alert(`${firstName} ${lastName} khosh amadid your ${passend}`)
+
+  alert(`${firstName} ${lastName} khosh amadid your ${passend}`);
 } else {
   console.log("nooooo");
 }
-
-
