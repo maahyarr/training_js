@@ -1,6 +1,6 @@
 // array.fill(value, start, end)
 //
-
+/*
 const names = ["Ali", "Amin", "Sara"];
 
 names.fill("Mamad");
@@ -69,14 +69,13 @@ const words = Array.from("Hello");
 const isItAnArray = Array.isArray([1, 2, 3]); // true
 
 const isItAnArray2 = Array.isArray("I am a string"); // false
-
-
+*/
 
 const names21 = ["Ali", "Amin", "Sara", "Davood", "Karim"];
-names21.forEach( (item) => {
-    console.log(item);
-    
-}
+names21.push("100");
+console.log(names21);
+let result = names21.map((item) => {
+  return console.log(item);
+});
 
-
-)
+console.log(result);
