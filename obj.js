@@ -7,6 +7,7 @@ for (let i = 0; i < howMstudent; i++) {
     name: porsesh,
   });
 }
+
 students.forEach((elem) => {
   let corses = (elem.name = +prompt(`${elem.name} chand dars?`));
   let darsha = [`${elem.name}`];
