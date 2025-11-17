@@ -30,8 +30,10 @@ if ((censor = true)) {
   console.log(`${lorem}${edame}`);
   
 }
-*/
+
 let sum=(a,b)=> {
   return(a*b)
 }
 console.log(typeof sum);
+*/
+
